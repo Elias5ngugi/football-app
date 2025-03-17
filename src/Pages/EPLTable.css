@@ -1,0 +1,64 @@
+/* EPL Table Page Styles */
+.epl-table-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.epl-table-title {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.epl-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.epl-table th, 
+.epl-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.epl-table th {
+    background-color: #003366;
+    color: white;
+    font-weight: bold;
+}
+
+.epl-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.epl-table tr:hover {
+    background-color: #ddd;
+    transition: 0.3s;
+}
+
+.epl-team-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .epl-table th, .epl-table td {
+      font-size: 14px;
+      padding: 8px;
+    }
+
+    .epl-team-logo {
+      width: 25px;
+      height: 25px;
+    }
+}

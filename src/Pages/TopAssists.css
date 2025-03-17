@@ -1,0 +1,72 @@
+/* Top Assists Page Styles */
+.top-assists-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .top-assists-title {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .top-assists-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .top-assists-table th, 
+  .top-assists-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .top-assists-table th {
+    background-color: #003366;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .top-assists-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .top-assists-table tr:hover {
+    background-color: #ddd;
+    transition: 0.3s;
+  }
+  
+  .top-assists-player-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .top-assists-team-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 600px) {
+    .top-assists-table th, .top-assists-table td {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .top-assists-player-img, .top-assists-team-logo {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  
